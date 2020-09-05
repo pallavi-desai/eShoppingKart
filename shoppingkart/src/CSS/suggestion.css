@@ -1,0 +1,17 @@
+.name{
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    height: 30px;
+    color: #ffffff;
+    font-family: Arial, serif;
+}
+
+.name:hover{
+    background-color: #ffffff;
+    color: #27496D;
+    cursor: pointer;
+}

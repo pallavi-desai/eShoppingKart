@@ -1,0 +1,19 @@
+.redirect{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.linkRegister{
+    text-decoration: underline;
+    color: black;
+}
+
+.linkRegister:hover{
+    text-decoration: underline;
+    color: #006097;
+}
+
+.err-text {
+    color: red;
+}

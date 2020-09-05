@@ -1,0 +1,158 @@
+
+.mainTitle{
+    margin: 20px 20px 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.itemsDiv{
+    margin: 20px 20px 20px 50px;
+    min-height: 460px;
+}
+
+.priceQuantityTotalDiv{
+    display: flex;
+}
+
+.price-Total-div{
+    margin-right: 40px;
+    width: 90px;
+}
+
+.price-total-quantity{
+    font-size: 19px;
+    text-align: center;
+}
+
+.values{
+    font-size: 19px;
+    color: crimson;
+}
+
+.totalDiv{
+    margin: 20px 20px 0px 20px;
+    font-size: 20px;
+    padding: 0 20px 0 0;
+    display: flex;
+}
+
+.totalDiv-title{
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.totalDiv-value{
+    color: crimson;
+    margin-left: 50px;
+}
+
+.minusButton{
+    margin-right: 10px;
+    border: none;
+    width: 30px;
+    background: burlywood;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none !important;
+}
+
+.plusButton{
+    margin-left:10px;
+    border: none;
+    width: 30px;
+    background: burlywood;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none !important;
+}
+
+.removeButton{
+    border: none;
+    outline: none !important;
+    font-size: 15px;
+    padding: 8px;
+    background: none;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.quantityDiv{
+    margin-right: 40px;
+    width: 90px;
+}
+
+.orderedImages{
+    width:150px;
+    height:100px;
+    margin: 10px 30px 10px 10px;
+}
+
+.orderTitle{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px 0px 0px;
+}
+
+.orderDiv{
+    display:flex;
+    padding: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.orderDiv-info-quantity-button{
+    display: flex;
+}
+
+.emptyCart{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.emptyCart-img{
+    width: 300px;
+}
+
+.emptyCart-label-div{
+    font-size: 30px;
+}
+
+.emptyCart-label{
+    padding: 0 0 0 55px;
+}
+
+.left-div{
+    width: 65%;
+    border-right: 2px black solid;
+}
+
+.right-div-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.checkout-div{
+    text-align: center;
+}
+
+.checkoutButton{
+    height: 40px;
+    width: 250px;
+    color: white;
+    background: #0073B1;
+    border-radius: 5px;
+    border: 2px #0073B1 solid;
+}
+
+.discountText{
+    text-align: center;
+    padding: 10px 0 0 20px;
+}

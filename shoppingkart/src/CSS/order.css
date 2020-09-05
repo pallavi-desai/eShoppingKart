@@ -1,0 +1,14 @@
+.buts{
+    background-color: #0073B1;
+    border: 1px solid #0073B1;
+}
+.OrderHeader{
+    font-weight: 600;
+}
+
+.review-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

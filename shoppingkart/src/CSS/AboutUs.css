@@ -1,0 +1,85 @@
+*{
+    box-sizing: unset;
+}
+
+.company-section{
+    padding: 50px;
+    overflow: hidden;
+}
+
+.heading{
+    font-family: 'Pacifico', cursive;
+    color: #0073b1;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+
+.text{
+    color: #000000;
+    font-family: Arial, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.goals{
+    overflow: hidden;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.goal{
+    border-radius: 20px;
+    height: 240px;
+    background-color: #0073b1;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.section{
+    width: 260px;
+    height: 240px;
+}
+
+.delivery{
+    background: url("../Images/delivery.png") center center no-repeat;
+}
+
+.cart{
+    background: url("../Images/cart.png") center center no-repeat;
+}
+
+.customer{
+    background: url("../Images/customer.png") center center no-repeat;
+}
+
+.goal-title{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Console", serif;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 950px) {
+
+    .goals{
+        max-width: 300px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .goal{
+        margin-bottom: 20px;
+        width: 260px;
+    }
+
+    .goals .goal:last-child{
+        margin-bottom: 0;
+    }
+
+}

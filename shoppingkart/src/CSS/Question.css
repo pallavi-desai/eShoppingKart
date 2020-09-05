@@ -1,0 +1,15 @@
+.q{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-family: Arial, serif;
+    word-wrap: break-word;
+}
+
+.q:hover{
+    background-color: #0073B1;
+    color: #ffffff;
+    cursor: pointer;
+}

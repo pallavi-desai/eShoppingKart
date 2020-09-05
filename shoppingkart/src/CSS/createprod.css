@@ -1,0 +1,64 @@
+.bg{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#button1,#button2,#button3{
+    background-color:   #0073B1;
+}
+
+.err-text {
+    color : red;
+}
+
+.form-container{
+    width: 60vh;
+    height : 65vh;
+    border: 0px solid black;
+    padding: 40px 40px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: -2px 9px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 9px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 9px 11px 0px rgba(0,0,0,0.75);
+
+}
+
+.h1{
+    text-align: center;
+}
+
+.redirect{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+
+.linkRegister{
+    text-decoration: underline;
+    color: black solid;
+}
+
+.linkRegister:hover{
+    text-decoration: underline;
+    color: #006097 solid;
+}
+
+.err-text {
+    color: red;
+}
+
+.toast-box{
+    border: 0px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -2px 9px 11px 0px rgba(0,0,0,0.75);
+
+
+}

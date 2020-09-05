@@ -1,0 +1,157 @@
+.contactDiv{
+    white-space: pre-line;
+}
+
+.addressDiv{
+    width: 200px;
+}
+
+.items-size{
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-deck{
+    padding: 20px;
+}
+
+.card-title{
+    text-align: center;
+    color: #212529;
+}
+
+.left-div-order{
+    width:60%;
+    margin: 0px 20px 20px 50px;
+    border-right: 2px black solid;
+}
+
+.left-div-delivery-div{
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.left-div-delivery-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.left-div-address-div{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.left-div-edit-save-div{
+    text-align: right;
+}
+
+.edit-save-button{
+    border: none;
+    outline: none !important;
+    font-size: 15px;
+    padding: 8px;
+    background: none;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.radio-button-img{
+    width: 100px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-right: 35px;
+    height: 100px;
+}
+
+.cardDeck{
+    margin-right: 5px !important; 
+    /* margin-bottom: 0; */
+    margin-left: 5px !important;
+    width: 195px;
+    flex: none !important;
+}
+
+.cardBody{
+    padding:0 !important;
+}
+
+.cardTitle{
+    font-size: 18px !important;
+}
+
+.cardFooter{
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+.text-muted{
+    font-weight: bold;
+}
+
+.right-div-order{
+    width: 350px;
+}
+
+.right-div-mainTitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.totalDivOrder{
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    padding: 0 20px 0 0;
+    display: flex;
+}
+
+.totalDivlabel{
+    width: 70%;
+    float: left;
+}
+
+.totalDivValue{
+    width: 30%;
+    float: right;
+}
+
+.grandTotal{
+    font-weight: bold;
+}
+
+.discountDiv{
+    padding: 20px 0px 20px 0px;
+    margin-top: 20px;
+    border-top: 1px black solid;
+}
+
+.discountDivTitle{
+    font-size: 18px;
+}
+
+.discountInput{
+    width: 200px;
+}
+
+.discountButton{
+    margin-left: 20px;
+    width: 90px;
+    background: transparent;
+}
+
+.payment-container {
+    display: flex;
+    
+}
+
+.card-form {
+    margin-left: 5px;
+}
+.card-ip {
+    width: 73%;
+    padding: 11px 25px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
