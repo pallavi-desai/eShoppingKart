@@ -1,9 +1,3 @@
-/**
-
- @author    Hardik Dudhrejia => B00835071
-
- **/
-
 
 const express = require('express')
 const product = require("../model/productModel");

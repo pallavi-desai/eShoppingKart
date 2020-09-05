@@ -1,8 +1,3 @@
-/**
-
- @author    Deep Muni => B00828375
-
- **/
 
 const express = require('express');
 const helpRoute = express.Router();

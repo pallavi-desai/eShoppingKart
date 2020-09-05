@@ -1,8 +1,3 @@
-/**
-
- @author    Pallavi Desai => B00837405
-
- **/
 
 const express = require('express');
 const cartRoute = express.Router();

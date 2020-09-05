@@ -1,8 +1,3 @@
-/**
-
- @author    Rashmika Ibrahimpatnam => B00832190
-
- **/
 
 const express = require("express");
 const discountRoute = express.Router();

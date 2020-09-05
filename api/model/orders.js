@@ -1,8 +1,4 @@
-/**
 
- @author    Pallavi Desai => B00837405
-
- **/
 const mongoose = require('mongoose');
 
 const orders = mongoose.Schema({

@@ -25,12 +25,6 @@ class Logout extends Component {
         }
     }
 
-    /**
-
-    @function author    Pallavi Desai => B00837405
-
-    **/
-
     // save the cart items as unconfirmed order to dB after logout
     async saveUserOrder(){
         if(window.localStorage.getItem('tempCart') && JSON.parse(window.localStorage.getItem('tempCart')).length>0){

@@ -1,8 +1,3 @@
-/**
-
- @author    Hardik Dudhrejia => B00835071
-
- **/
 
 const mongoose = require('mongoose');
 

@@ -1,10 +1,3 @@
-/**
-
- @author    Hardik Dudhrejia => B00835071
-
- **/
-
-
 import React from 'react'
 import {Link} from 'react-router-dom'
 import '../CSS/AdminInventoryHome.css'

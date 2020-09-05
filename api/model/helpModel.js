@@ -1,9 +1,3 @@
-/**
-
- @author    Deep Muni => B00828375
-
- **/
-
 const mongoose = require('mongoose');
 
 // Schema for help

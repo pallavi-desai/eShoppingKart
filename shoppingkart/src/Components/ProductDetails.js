@@ -19,7 +19,6 @@ class ProductDetails extends Component {
             productQuantity: 0,
             productPrice: 0
         };
-        //console.log(props)
     }
 
     async componentDidMount() {

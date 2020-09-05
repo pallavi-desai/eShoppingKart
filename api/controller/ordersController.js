@@ -1,7 +1,3 @@
-/**
- @author Vikash Salvi B00838074
- **/
-
 
 const express = require('express')
 const ordersModel = require("../model/orders");

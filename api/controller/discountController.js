@@ -1,9 +1,3 @@
-/**
-
- @author    Rashmika Ibrahimpatnam => B00832190
-
- **/
-
 //load the model
 const Discount = require("../model/discountModel");
 

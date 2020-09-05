@@ -1,6 +1,4 @@
-/**
- @author Vikash Salvi B00838074
- **/
+
 const express = require('express')
 const orderRoute = express.Router()
 const userOrdersController = require('../controller/ordersController')

@@ -1,9 +1,3 @@
-/**
-
- @author    Pallavi Desai => B00837405
-
- **/
-
 const orders = require("../model/orders");
 const users = require("../model/userModel");
 

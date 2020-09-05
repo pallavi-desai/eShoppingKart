@@ -1,15 +1,4 @@
-/**
-
- @author    Deep Muni => B00828375
-
- **/
-
 const helpModel = require("../model/helpModel");
-
-/**
- @function author    Deep Muni => B00828375
- **/
-
 // This controller will help to fetch all the questions
 const getAllQuestions = (req, res) => {
     helpModel.find().exec()
@@ -20,10 +9,6 @@ const getAllQuestions = (req, res) => {
             console.log("Failure:" + err);
         })
 }
-
-/**
- @function author    Deep Muni => B00828375
- **/
 
 // This controller will help to fetch the suggestion
 const getQuestionSuggestion = (req, res) => {
@@ -39,10 +24,6 @@ const getQuestionSuggestion = (req, res) => {
             console.log("Failure:" + err);
         })
 }
-
-/**
- @function author    Deep Muni => B00828375
- **/
 
 // This controller will help to fetch the answer
 const getAnswer = (req, res) => {

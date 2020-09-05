@@ -1,7 +1,3 @@
-/**
- @author    Bharat Bhargava => B00838511
- **/
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 

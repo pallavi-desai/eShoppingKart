@@ -1,8 +1,3 @@
-/**
-
- @author    Rashmika Ibrahimpatnam => B00832190
-
- **/
 
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");

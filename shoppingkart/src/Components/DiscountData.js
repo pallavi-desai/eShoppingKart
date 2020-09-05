@@ -1,8 +1,3 @@
-/**
-
- @author    Rashmika Ibrahimpatnam => B00832190
-
- **/
 import React, { Component } from "react";
 import Axios from "axios";
 import '../CSS/discountdata.css';

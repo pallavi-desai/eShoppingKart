@@ -1,14 +1,4 @@
-/**
-
- @author    Deep Muni => B00828375
-
- **/
-
 const productModel = require("../model/productModel");
-
-/**
- @function author    Deep Muni => B00828375
- **/
 
 // This controller will help to fetch all the products
 const getAllProducts = (req, res) => {
@@ -20,10 +10,6 @@ const getAllProducts = (req, res) => {
             console.log("Failure:" + err);
         })
 }
-
-/**
- @function author    Deep Muni => B00828375
- **/
 
 // This controller will help to fetch the suggestion
 const getSuggestions = (req, res) => {
@@ -40,10 +26,6 @@ const getSuggestions = (req, res) => {
         })
 }
 
-/**
- @function author    Deep Muni => B00828375
- **/
-
 // This controller will help to fetch the result of search
 const getSearchedProducts = (req, res) => {
     productModel.find({ "productName": { $regex: ".*" + req.params.query + ".*", $options: "i" } }).exec()
@@ -55,9 +37,6 @@ const getSearchedProducts = (req, res) => {
         })
 }
 
-/**
- @function author    Vikash Salvi => B00838074
- **/
 const getProductDetails = (req, res) => {
     productModel.find({ "productID": req.params.query }).exec()
         .then(data => {
@@ -67,9 +46,6 @@ const getProductDetails = (req, res) => {
             console.log("Failure:" + err);
         })
 }
-/**
- @function author    Vikash Salvi => B00838074
- **/
 
 const getTopProducts = (req, res) => {
     productModel.find().limit(20).exec()
@@ -81,9 +57,7 @@ const getTopProducts = (req, res) => {
         })
 }
 
-/**
- @function author    Bharat Bhargava => B00838511
- **/
+
 const postProductDetails = (req, res) => {
     let productIdList = req.body.productIds;
     for (let i = 0; i < productIdList.length; i++) {
