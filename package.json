@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikashsalvi/CSCI_5709_Group_24.git"
+    "url": ""
   },
   "author": "Group 24",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vikashsalvi/CSCI_5709_Group_24/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/vikashsalvi/CSCI_5709_Group_24#readme",
+  "homepage": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
